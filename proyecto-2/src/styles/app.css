@@ -1,13 +1,12 @@
 .app-content,
 .form-content {
-  margin: 20px auto 0 auto; /* centrado horizontal */
+  margin: 20px auto 0 auto;
   padding: 15px;
   border-radius: 10px;
   background-color: rgba(30, 30, 30, 0.95);
   color: white;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 
-  /* Oculto */
   opacity: 0;
   max-height: 0;
   overflow: hidden;

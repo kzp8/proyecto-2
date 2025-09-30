@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectsBtn = document.getElementById("projectsBtn");
   const projectsContent = document.getElementById("projectsContent");
 
-  // Toggle para "Sobre mí"
   appBtn.addEventListener("click", () => {
     appContent.classList.toggle("show");
     appBtn.classList.toggle("active");
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsBtn.classList.remove("active");
   });
 
-  // Toggle para "Contáctame"
   contactBtn.addEventListener("click", () => {
     contactContent.classList.toggle("show");
     contactBtn.classList.toggle("active");
@@ -32,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsBtn.classList.remove("active");
   });
 
-  // Toggle para "Proyectos"
   projectsBtn.addEventListener("click", () => {
     projectsContent.classList.toggle("show");
     projectsBtn.classList.toggle("active");

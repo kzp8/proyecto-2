@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./src/styles/style.css" />
     <link rel="stylesheet" href="./src/styles/app.css" />
     <script defer src="./src/scripts/app.js"></script>
+    <script defer src="./src/scripts/theme.js"></script>
   </head>
   <body>
+    <button id="themeToggleBtn">Modo Claro</button>
     <div class="container">
       <div class="small-text">Hola, soy</div>
       <div class="name">David Rus</div>
@@ -17,10 +19,8 @@
       </div>
 
 <div class="buttons">
-  <!-- Botón Sobre mí -->
   <button id="appBtn">Sobre mí</button>
 
-  <!-- Botón GitHub -->
   <a href="https://github.com/kzp8" target="_blank">
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="white">
@@ -29,21 +29,17 @@
     </button>
   </a>
 
-  <!-- Botón Contáctame -->
   <button id="contactBtn">Contáctame</button>
 
-  <!-- Botón Proyectos -->
   <button id="projectsBtn">Proyectos</button>
 </div>
 
-<!-- Contenido Sobre mí -->
 <div id="appContent" class="app-content">
   <p>
     Soy David Rus, desarrollador web con pasión por crear experiencias digitales únicas. Me encanta trabajar en proyectos innovadores y aprender nuevas tecnologías para mejorar cada día.
   </p>
 </div>
 
-<!-- Contenido Proyectos -->
 <div id="projectsContent" class="app-content">
   <div class="project">
     <h3>CV Proyecto</h3>
@@ -53,7 +49,6 @@
   </div>
 </div>
 
-<!-- Contenido Contacto -->
 <div id="contactContent" class="form-content">
   <form>
     <input type="text" placeholder="Nombre" required />
