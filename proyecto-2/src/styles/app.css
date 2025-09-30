@@ -1,0 +1,57 @@
+.app-content,
+.form-content {
+  margin: 20px auto 0 auto; /* centrado horizontal */
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(30, 30, 30, 0.95);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+  /* Oculto */
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease, max-height 0.6s ease;
+  max-width: 700px;
+}
+
+.app-content.show,
+.form-content.show {
+  opacity: 1;
+  max-height: 500px;
+  transform: translateY(0);
+}
+
+.form-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-content input, 
+.form-content textarea {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(46, 46, 46);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.form-content button {
+  background: #ff4d4d;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.form-content button:hover {
+  background: #ff1a1a;
+}
+
+
